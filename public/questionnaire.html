@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionnaire</title>
+</head>
+
+<body>
+    <div class="flex-container">
+        <div id="navbar">
+            <a id="navhome" href="..\home.html">Home</a>
+            <a class="navother" href="..\public\contactme.html">Contact Me</a>
+            <a class="navother" href="..\public\questionnaire.html">Questionnaire</a>
+            <a class="navother" href="https://github.com/chilanay" target="_blank">GitHub Account</a>
+            <a class="navother" href="https://github.com/chilanay/ProfileHomework.git" target="_blank">GitHub Page</a>
+            <a class="navother" href="..\public\card.html" target="_blank">Card</a>
+        </div>
+
+        <div class="main">
+            <form action="mailto:chajisoy11214@ada.edu.az" method="POST" enctype="text/plain">
+                <!-- <form action="/" method="GET">-->
+                <label for="fname">First Name: </label>
+                <input type="text" id="fname" name="fname" placeholder="Enter your first name" required /><br />
+
+                <label for="lname">Last Name: </label>
+                <input type="text" id="lname" name="lname" placeholder="Enter your last name" /><br />
+
+                <label for="lname">Age: </label>
+                <input type="text" id="age" name="age" placeholder="Enter your age" /><br />
+
+                <fieldset>
+                    <legend>Choose your gender</legend>
+                    <input type="radio" id="male" name="gender" value="MALE" />
+                    <label for="male">Male</label><br />
+
+                    <input type="radio" id="female" name="gender" value="FEMALE" />
+                    <label for="female">Female</label> <br />
+
+                    <input type="radio" id="other" name="gender" value="OTHER" />
+                    <label for="other">Other</label> <br />
+                </fieldset>
+                <fieldset>
+                    <legend>Select your major</legend>
+                    <input type="checkbox" id="field_ai" name="field" value="AI" />
+                    <label for="field_ai">Computer Engineering</label><br />
+
+                    <input type="checkbox" id="field_comp_graph" name="field" value="CompGraph" />
+                    <label for="field_comp_graph">Computer Science</label><br />
+
+                    <input type="checkbox" id="field_iot" name="field" value="IoT" />
+                    <label for="field_iot">IT</label><br />
+                </fieldset>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
