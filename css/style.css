@@ -6,14 +6,14 @@
 .flex-container>div {
     background-color: #FAF3F0;
 }*/
-#status{
-    float:left;
+#status {
+    float: left;
 }
 
 body {
     background-color: #FAF3F0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    max-width: 95%;
+    max-width: 99%;
     margin: auto;
 }
 
@@ -68,7 +68,8 @@ hr {
     width: 200px;
     margin-right: 20px;
 }
-#myimgcontact{
+
+#myimgcontact {
     border-radius: 200px;
     width: 200px;
 }
@@ -90,7 +91,7 @@ select {
 
 input[type=submit] {
     width: 100%;
-    background-color: #722e6b;
+    background-color: #C37B89;
     color: white;
     padding: 10px 20px;
     margin: 10px 0;
@@ -98,6 +99,9 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
 }
+ #submitedit:hover{
+    background-color: #b89b9b;
+ }
 
 #about {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -117,7 +121,7 @@ input[type=submit] {
 }
 
 #about tr:hover {
-    background-color: #c5a9c7;
+    background-color: #F2D7D9;
 }
 
 #about th {
@@ -135,37 +139,25 @@ th img {
     margin-bottom: 20px;
 }
 
-#aboutme{
-    float:right;
-    padding-right: 15%;
-    padding-top: 50px;
+
+
+#nameabout {
+    padding-top: 10px;
+    padding-right: 33%;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
 }
-#profimg{
+hr.hrspan{
+    border-top: 1px solid #905964;
+}
+
+.aboutme {
+    float: right;
+}
+
+#profimg {
     padding-top: 30px;
     padding-left: 30px;
     padding-bottom: 30px;
     background-color: #D4E2D4;
 }
-
-/*
-#status {
-    display: block;
-    float: right;
-    position: relative;
-    cursor: pointer;
-    -moz-background-clip:border;
-    -moz-background-inline-policy:continuous;
-    -moz-background-origin:padding;
-    color:#FFFFFF;
-    /*font-size: 1.8em;
-    top: 10px;
-  }
-  
-  #status span.unreviewed {
-    padding: 3px 4px; 
-    background:#DA704B none repeat scroll 0 0;
-  }
-  
-  #status span.unreviewed img {
-    float: right;
-  }*/

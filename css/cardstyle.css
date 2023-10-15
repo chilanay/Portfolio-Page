@@ -1,111 +1,114 @@
 body {
-    padding: 0;
-    margin: 0;
-    background-color: #FAF3F0;
-    font-family: "Montserrat", sans-serif;
-    line-height: 1.42857143;
-  }
-  
-  main {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  section {
-    width: 500px;
-    height: 570px;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  section > span {
-      background-color: black;
-      width: 100%;
-      height: 5px;
-  }
-  
-  #card {
-    background-color: #9A86A4;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2rem;
-    text-align: center;
-  }
-  
-  img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    border: 6px solid #ddd;
-  }
-  
-  .title h1 {
-    font-size: 36px !important;
-    margin: 10px 0;
-  }
-  .title h2 {
-    margin-top: 0;
-    font-size: 14px;
-    font-weight: bold;
-  }
-  
-  #name {
-    color: #DBC4F0;
-  }
-  
-  .hr1 {
-    border: none;
-    height: 1px;
-    width: 100%;
-    background: url(http://wp1.themexlab.com/wp/cards/wp-content/themes/cards/img/hr1.png)
-      no-repeat center center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-  
-  .card-main {
-    padding: 0 2.3rem;
-  }
-  
-  .card-main p {
-    font-size: 13px;
-  }
-  
-  #information-button {
-    margin-bottom: 15px;
-    border-radius: 5px;
-    padding: 10px;
-    background: url(http://wp1.themexlab.com/wp/cards/wp-content/themes/cards/img/bg-btn.png)
-      no-repeat center center #FFCACC;
-    transition: 0.6s;
-  }
-  #information-button:hover {
-    background-color: #D4E2D4;
-  }
-  
-  #information-button p {
-    margin: 0;
-    color: black;
-    font-size: 12px;
-  }
-  
-  #icons i {
-    color: black;
-    background-color: #C6DCE4;
-    width: 30px;
-    height: 30px;
-    display: inline-block;
-    text-align: center;
-    transition: all 0.3s ease-in-out;
-    font-size: 14px;
-    line-height: 30px;
-  }
-  
-  #icons i:hover {
-    background-color: #FFCACC;
-  }
-  
+  padding: 0;
+  margin: 0;
+  background-color: #FAF3F0;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.42857143;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
+  width: 500px;
+  height: 570px;
+  display: flex;
+  flex-direction: column;
+}
+
+section>span {
+  background-color: black;
+  width: 100%;
+  height: 5px;
+}
+
+#card {
+  background-color: #9A86A4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 6px solid #ddd;
+}
+
+.title h1 {
+  font-size: 36px !important;
+  margin: 10px 0;
+}
+
+.title h2 {
+  margin-top: 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#name {
+  color: #DBC4F0;
+}
+
+.hr1 {
+  border: none;
+  height: 1px;
+  width: 100%;
+  background: url(http://wp1.themexlab.com/wp/cards/wp-content/themes/cards/img/hr1.png) no-repeat center center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.card-main {
+  padding: 0 2.3rem;
+}
+
+.card-main p {
+  font-size: 13px;
+}
+
+#information-button {
+  margin-bottom: 15px;
+  border-radius: 5px;
+  padding: 10px;
+  background: url(http://wp1.themexlab.com/wp/cards/wp-content/themes/cards/img/bg-btn.png) no-repeat center center #FFCACC;
+  transition: 0.6s;
+}
+
+#information-button:hover {
+  background-color: #C37B89;
+}
+
+#information-button p:hover {
+  color: white;
+}
+
+#information-button p {
+  margin: 0;
+  color: black;
+  font-size: 12px;
+}
+
+#icons i {
+  color: black;
+  background-color: #C6DCE4;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+#icons i:hover {
+  background-color: #C37B89;
+}
