@@ -1,11 +1,3 @@
-/*.flex-container {
-    display: flex;
-    flex-wrap: nowrap;
-}
-
-.flex-container>div {
-    background-color: #FAF3F0;
-}*/
 #status {
     float: left;
 }
@@ -16,7 +8,6 @@ body {
     max-width: 99%;
     margin: auto;
 }
-
 
 #navbar {
     background-color: #DBC4F0;
@@ -57,6 +48,10 @@ body {
 }
 
 
+h3 {
+    font-style: italic;
+    color: #354259;
+}
 
 hr {
     border-top: 1px solid purple;
@@ -99,9 +94,10 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
 }
- #submitedit:hover{
+
+#submitedit:hover {
     background-color: #b89b9b;
- }
+}
 
 #about {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -113,7 +109,7 @@ input[type=submit] {
 #about th {
     border: 1px solid #ddd;
     padding: 8px;
-    vertical-align: top;
+    vertical-align: middle;
 }
 
 #about tr:nth-child(even) {
@@ -142,12 +138,13 @@ th img {
 
 
 #nameabout {
-    padding-top: 10px;
+    padding-top: 20px;
     padding-right: 33%;
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
 }
-hr.hrspan{
+
+hr.hrspan {
     border-top: 1px solid #905964;
 }
 
